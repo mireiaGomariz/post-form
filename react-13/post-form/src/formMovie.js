@@ -25,7 +25,6 @@ apiCall() {
     },
     body: JSON.stringify(this.state),
   };
-  debugger;
   fetch(url, config)
     .then(res => res.json())
       .then(res => {
